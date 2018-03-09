@@ -13,6 +13,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Support for internal apps
 - Support to filter app logs by container name
 - Support to set secrets as env var
+- `service` command, for now only used to enable ssl support
 
 ### Fixed
 - Storage env vars on spec of Init Container
