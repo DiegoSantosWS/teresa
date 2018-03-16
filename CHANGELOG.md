@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Change Method `CreateSecret` to `CreateOrUpdateSecret` on k8s interfaces
 - Default max-cpu app limit to 400m
 - [HELM] Bump minio version to v0.5.5
+- Infer if an app is a cronjob by `cron` prefix on process type
 
 ### Added
 - Support Nginx as sidecar
